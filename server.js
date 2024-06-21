@@ -6,7 +6,7 @@ const app = express();
 const port = 4000;
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/UrlShortener", {
+  .connect("mongodb+srv://badshahshvm766:DNYGqFvNeXXfbrVR@cluster0.fxwdj3v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
