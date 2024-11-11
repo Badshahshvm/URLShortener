@@ -1,7 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const { shortenUrl, redirectUrl } = require("./controller/urlController");
-
 const app = express();
 const port = 4000;
 
