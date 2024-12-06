@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
   res.render("server.ejs", { shortUrl: "" });
 });
 
-//Haandle the routes:-
+//Haandle the routes
 
 app.post("/shorten", shortenUrl);
 //redirect to the original Url:-
